@@ -1,7 +1,5 @@
 # Barcamp Cyberjaya 2020 Website
 
-![BarCamp Cyberjaya](https://barcampcyberjaya.org/img/barcamp-logo.png)
-
 This is a static website for Barcamp Cyberjaya 2020. Barcamp is a conference where audience get to choose talks and speakers of their interests.
 This website is written using [Nuxt.js](https://nuxtjs.org).
 
