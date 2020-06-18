@@ -5,10 +5,6 @@ This website is written using [Nuxt.js](https://nuxtjs.org).
 
 > By keishi
 
-## Contribution
-
-You are welcome to contribute, please let me know.
-
 ## Installation and Build Setup
 
 ```bash
