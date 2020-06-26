@@ -1,13 +1,13 @@
 <template>
   <b-container class="p-4">
     <homenav />
-    <b-row class="pt-5">
+    <b-row class="pt-3">
       <b-col cols="12">
         <b-card class="bg-none text-center border-0 animate__animated animate__fadeInUp">
           <b-img src="~/assets/img/barcamp-logo.png" fluid />
         </b-card>
         <b-card class="bg-none text-center text-white Roboto-light border-0 animate__animated animate__fadeInUp animate__delay-1.2s">
-          <p class="d-none d-lg-block roboto-light" style="font-size:3em">
+          <p class="d-none d-lg-block roboto-light" style="font-size:2.5em">
             <b class="roboto-fat" style="font-size:1.3em">{{ date }}</b> 2020 | {{ time }}
           </p>
           <p class="d-lg-none d-sm-block roboto-light" style="font-size:1.2em">
@@ -16,6 +16,7 @@
           <p class="d-lg-none d-sm-block roboto-light" style="font-size:1.2em">
             {{ time }}
           </p>
+          <countdown />
         </b-card>
       </b-col>
     </b-row>
@@ -34,10 +35,12 @@
 
 <script>
 import Homenav from '~/components/home-nav'
+import Countdown from '~/components/countdown'
 
 export default {
   components: {
-    Homenav
+    Homenav,
+    Countdown
   },
   data: () => {
     return {
