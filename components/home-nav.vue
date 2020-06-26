@@ -1,12 +1,10 @@
 <template>
-  <b-navbar toggleable="lg" type="dark" class="roboto-thin bg-nav">
-    <b-navbar-brand href="#home">
-      <b-img src="~/assets/img/barcamp-logo.png" style="height:2em" />
-    </b-navbar-brand>
-
-    <b-navbar-toggle target="nav-collapse" />
+  <b-navbar toggleable="lg" type="dark" class="roboto">
 
     <b-collapse id="nav-collapse" is-nav>
+      <b-navbar-brand href="#home">
+        <b-img src="~/assets/img/barcamp-logo.png" style="height:2em" />
+      </b-navbar-brand>
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto text-white">
         <b-nav-item

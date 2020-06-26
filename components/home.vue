@@ -1,5 +1,6 @@
 <template>
-  <b-container fluid class="p-4">
+  <b-container class="p-4">
+    <homenav />
     <b-row class="pt-5">
       <b-col cols="12">
         <b-card class="bg-none text-center border-0 animate__animated animate__fadeInUp">
@@ -7,10 +8,7 @@
         </b-card>
         <b-card class="bg-none text-center text-white Roboto-light border-0 animate__animated animate__fadeInUp animate__delay-1.2s">
           <p class="d-none d-lg-block roboto-light" style="font-size:3em">
-            <b class="roboto-fat" style="font-size:1.5em">{{ date }}</b> 2020
-          </p>
-          <p class="d-none d-lg-block roboto-light" style="font-size:3em">
-            {{ time }}
+            <b class="roboto-fat" style="font-size:1.3em">{{ date }}</b> 2020 | {{ time }}
           </p>
           <p class="d-lg-none d-sm-block roboto-light" style="font-size:1.2em">
             <b class="roboto-fat" style="font-size:1.5em">{{ date }}</b> 2020
@@ -35,7 +33,12 @@
 </template>
 
 <script>
+import Homenav from '~/components/home-nav'
+
 export default {
+  components: {
+    Homenav
+  },
   data: () => {
     return {
       date: 'August 29',

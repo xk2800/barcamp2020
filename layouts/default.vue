@@ -34,7 +34,7 @@ export default {
   }
 
   .bg-nav {
-    background-color: rgba(112,128,144,0.9);
+    background-color:rgb(50,23,77);
   }
 
   .bg-barcamp {
