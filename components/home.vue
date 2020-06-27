@@ -20,7 +20,7 @@
         </b-card>
       </b-col>
     </b-row>
-    <b-row class="pt-4 pb-5 text-center animate__animated animate__fadeInUp animate__delay-1.3s">
+    <b-row class="pt-2 pb-5 text-center animate__animated animate__fadeInUp animate__delay-1.3s">
       <b-col>
         <b-button variant="outline-light" size="md" class="p-3 mr-1" style="width:8.5em" pill>
           Be a Speaker

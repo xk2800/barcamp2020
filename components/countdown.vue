@@ -1,27 +1,30 @@
 <template>
   <div class="d-none d-sm-block mt-4 mb-4 animate__animated animate__fadeInUp animate__delay-1.2s">
     <b-row class="justify-content-md-center text-center text-white">
-      <b-col col lg="1" class="cd-item roboto-thin days mr-2 p-2" style="font-size:4em">
+      <b-col col lg="1" class="roboto-thin days mr-2 p-2" style="font-size:4em">
         {{ displayDays }}
-        <div class="label absolute bottom-0" style="font-size:0.3em">
+        <div class="absolute bottom-0 text-uppercase" style="font-size:0.25em">
           days
         </div>
       </b-col>
-      <b-col col lg="1" class="cd-item roboto-thin hours mr-2 p-2" style="font-size:4em">
+      <p class="roboto-thin p-1" style="font-size:4em">:</p>
+      <b-col col lg="1" class="roboto-thin hours mr-2 p-2" style="font-size:4em">
         {{ displayHrs }}
-        <div class="label absolute bottom-0" style="font-size:0.3em">
+        <div class="absolute bottom-0 text-uppercase" style="font-size:0.25em">
           hours
         </div>
       </b-col>
-      <b-col col lg="1" class="cd-item roboto-thin minutes mr-2 p-2" style="font-size:4em">
+      <p class="roboto-thin p-1" style="font-size:4em">:</p>
+      <b-col col lg="1" class="roboto-thin minutes mr-2 p-2" style="font-size:4em">
         {{ displayMins }}
-        <div class="label absolute bottom-0" style="font-size:0.3em">
+        <div class="absolute bottom-0 text-uppercase" style="font-size:0.25em">
           minutes
         </div>
       </b-col>
-      <b-col col lg="1" class="cd-item roboto-thin seconds mr-2 p-2" style="font-size:4em">
+      <p class="roboto-thin p-1" style="font-size:4em">:</p>
+      <b-col col lg="1" class="roboto-thin seconds mr-2 p-2" style="font-size:4em">
         {{ displaySecs }}
-        <div class="label absolute bottom-0" style="font-size:0.3em">
+        <div class="absolute bottom-0 text-uppercase" style="font-size:0.25em">
           seconds
         </div>
       </b-col>

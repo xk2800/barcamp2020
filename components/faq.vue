@@ -1,7 +1,7 @@
 <template>
   <b-container>
     <h3>
-      <b class="roboto-fat text-purple" style="font-size:1.5em; letter-spacing:2px;">FAQs</b>
+      <b class="roboto-fat text-purple text-title">FAQs</b>
     </h3>
     <div role="tablist" class="mt-3">
       <div class="card bg-barcamp">
@@ -33,13 +33,38 @@ export default {
       faqs: [
         {
           id: '1',
-          question: 'Question 1',
-          answer: 'Answer 1'
+          question: 'What is the theme for Barcamp Cyberjaya 2020?',
+          answer: 'The theme for Barcamp Cyberjaya 2020 will be based around: Technology, Healthcare and Entrepreneurship.'
         },
         {
           id: '2',
-          question: 'Question 2',
-          answer: 'Answer 2'
+          question: 'How will the event be held?',
+          answer: 'To ensure every participant\'s safety, our event will be held online. The platform we will be using is Google Meet, and the registered audience will receive our invitation to join the room. Speakers will then share knowledge with the audience after they join the room.'
+        },
+        {
+          id: '3',
+          question: 'How do I apply to become a speaker?',
+          answer: 'You may register via this link: '
+        },
+        {
+          id: '4',
+          question: 'How can I participate in this event as an audience?',
+          answer: 'You may register via this link: '
+        },
+        {
+          id: '5',
+          question: 'How do I sponsor this event?',
+          answer: 'You can contact us a this email: '
+        },
+        {
+          id: '6',
+          question: 'How long is each session?',
+          answer: 'Each session is about 45 minutes duration.'
+        },
+        {
+          id: '7',
+          question: 'Do I have to pay any registration fee?',
+          answer: 'No, registration is free!'
         }
       ]
     }

@@ -3,7 +3,7 @@
     <div>
       <nuxt />
     </div>
-    <div>
+    <div id="footer">
       <Footer />
     </div>
   </div>
@@ -33,6 +33,10 @@ export default {
     background-color: #ffffff00;
   }
 
+  .bg-pale {
+    background-color: rgb(242, 243, 244);
+  }
+
   .bg-nav {
     background-color:rgb(50,23,77);
   }
@@ -45,6 +49,10 @@ export default {
 
   .text-purple {
     color:rgb(50,23,77);
+  }
+
+  .text-title {
+    font-size:1.5em;
   }
 
   .roboto-thin {

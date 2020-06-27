@@ -12,7 +12,7 @@
         <b-nav-item
           v-for="(item,i) in homeitems"
           :key="`item-${i}`"
-          :href="`#${item.destination}`"
+          :href="`${item.destination}`"
           class="nav-item"
         >
           {{ item.navitem }}
@@ -38,23 +38,23 @@ export default {
       homeitems: [
         {
           navitem: 'Home',
-          destination: 'home'
+          destination: '#home'
         },
         {
           navitem: 'About',
-          destination: 'about'
-        },
-        {
-          navitem: 'FAQ',
-          destination: 'faq'
-        },
-        {
-          navitem: 'Sponsors',
-          destination: 'sponsor'
+          destination: '#about'
         },
         {
           navitem: 'Agenda',
-          destination: 'agenda'
+          destination: '#agenda'
+        },
+        {
+          navitem: 'FAQ',
+          destination: '#faq'
+        },
+        {
+          navitem: 'Sponsors',
+          destination: '#sponsor'
         }
       ],
       externalitems: [

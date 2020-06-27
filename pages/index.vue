@@ -14,15 +14,21 @@
       </div>
     </div>
 
-    <b-container>
-      <div id="about" class="pt-5 pb-5">
-        <about />
-      </div>
-    </b-container>
+    <div class="bg-pale">
+      <b-container>
+        <div id="about" class="pt-5 pb-5">
+          <about />
+        </div>
+      </b-container>
+    </div>
 
     <!-- <div id="register" class="bg-barcamp">
       <register />
     </div> -->
+
+    <div id="agenda" class="pt-5 pb-5">
+      <agenda />
+    </div>
 
     <div id="faq" class="pt-5 pb-5">
       <faq />
@@ -30,6 +36,10 @@
 
     <div id="carousel">
       <carousel />
+    </div>
+
+    <div id="sponsor" class="bg-pale pt-5 pb-5">
+      <sponsor />
     </div>
   </body>
 </template>
@@ -40,7 +50,9 @@ import Navbar from '~/components/navbar'
 import Home from '~/components/home'
 import About from '~/components/about'
 import Carousel from '~/components/carousel'
+import Agenda from '~/components/agenda'
 import Faq from '~/components/faq'
+import Sponsor from '~/components/sponsor'
 
 export default {
   components: {
@@ -49,7 +61,9 @@ export default {
     Home,
     About,
     Carousel,
-    Faq
+    Agenda,
+    Faq,
+    Sponsor
   }
 }
 
